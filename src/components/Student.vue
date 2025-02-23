@@ -58,6 +58,7 @@
                     </tr>
                 </tbody>
             </table>
+            <p class="mt-2 text-gray-400">Created by Aman Sharma</p>
         </div>
 
         <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
