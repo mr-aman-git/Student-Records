@@ -66,7 +66,7 @@
                 <h3 class="text-xl font-bold mb-4">{{ isEditing ? 'Edit Student' : 'Add Student' }}</h3>
 
                 <input v-model="student.name" type="text" placeholder="Student Name" class="border p-2 w-full mb-2">
-                <!-- <input v-model="student.subject" type="text" placeholder="Subject" class="border p-2 w-full mb-2"> -->
+                <input v-model="student.subject" type="text" placeholder="Subject" class="border p-2 w-full mb-2">
                 <input v-model="student.score" type="number" placeholder="Score" class="border p-2 w-full mb-2">
                 <select v-model="student.class" class="border p-2 w-full mb-2">
                     <option v-for="classItem in allClasses" :key="classItem" :value="classItem">{{ classItem }}</option>
